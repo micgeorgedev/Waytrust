@@ -1,5 +1,5 @@
 (function() {
-  const BRAND_NAME = "Gulf Oasis Travels & Tourism";
+  const BRAND_NAME = "Waytransit Travels & Tourism";
 
   function initLeadCapture() {
     // 1. Remove any WhatsApp widget or Chaty floating widget if found
