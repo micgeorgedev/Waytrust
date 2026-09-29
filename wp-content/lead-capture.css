@@ -1,0 +1,196 @@
+/* Gulf Oasis Fullscreen Hero & Clean Layout */
+.go-wa-floating-btn,
+.whatsapp-chat-button,
+.chaty-widget,
+.chaty-in-desktop,
+.chaty-in-mobile,
+.fa-whatsapp,
+.fa-whatsapp-square,
+.fab.fa-whatsapp,
+.fab.fa-whatsapp-square,
+a[href*="whatsapp.com"],
+a[href*="wa.me"],
+a[href^="tel:"] {
+  display: none !important;
+}
+
+/* Full Viewport Screen Hero */
+.elementor-element.elementor-element-f27e79f {
+  position: relative !important;
+  width: 100% !important;
+  min-height: 100vh !important;
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.elementor-element.elementor-element-f27e79f .elementor-background-video-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  z-index: 0 !important;
+}
+
+.elementor-element.elementor-element-f27e79f video {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  object-fit: cover !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 1 !important;
+}
+
+.elementor-element.elementor-element-f27e79f .elementor-container {
+  display: none !important;
+}
+
+.gulf-oasis-hero-overlay {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 3 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: radial-gradient(circle at center, rgba(13, 35, 58, 0.45) 0%, rgba(8, 20, 33, 0.8) 100%) !important;
+  padding: 40px 20px !important;
+  box-sizing: border-box !important;
+}
+
+.gulf-oasis-hero-block {
+  max-width: 850px !important;
+  width: 100% !important;
+  text-align: center !important;
+  color: #fff !important;
+}
+
+
+
+.gulf-oasis-hero-block h1 {
+  margin: 0 0 20px 0 !important;
+  font-size: clamp(36px, 5.5vw, 68px) !important;
+  line-height: 1.12 !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  letter-spacing: -0.02em !important;
+  text-shadow: 0 4px 25px rgba(0,0,0,0.7) !important;
+}
+
+.gulf-oasis-hero-block p {
+  font-size: clamp(16px, 1.8vw, 20px) !important;
+  line-height: 1.6 !important;
+  color: rgba(255, 255, 255, 0.92) !important;
+  max-width: 640px !important;
+  margin: 0 auto 32px auto !important;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6) !important;
+}
+
+.gulf-oasis-hero-cta {
+  display: flex !important;
+  gap: 16px !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+}
+
+.gulf-oasis-hero-cta a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 52px !important;
+  padding: 0 32px !important;
+  border-radius: 999px !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease !important;
+}
+
+.gulf-oasis-hero-cta .go-primary-btn {
+  background: linear-gradient(135deg, #d4a017, #f5c842) !important;
+  color: #0d233a !important;
+  box-shadow: 0 10px 25px rgba(212, 160, 23, 0.35) !important;
+}
+
+.gulf-oasis-hero-cta .go-secondary-btn {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.gulf-oasis-hero-cta a:hover {
+  transform: translateY(-2px) !important;
+  opacity: 0.95 !important;
+}
+
+/* Hide Trust Badges & Verified Reviews Section */
+.elementor-element-ee99cf8, .trust-badge-section, a[href*='trustpilot.com'], a[href*='tripadvisor.com'] {
+  display: none !important;
+}
+
+/* Responsive Eyebrow Brand Tagline */
+.gulf-oasis-hero-block .eyebrow {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  color: #f5c842 !important;
+  margin-bottom: 18px !important;
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.8) !important;
+}
+
+.gulf-oasis-hero-block .eyebrow-en {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.15em !important;
+  text-transform: uppercase !important;
+}
+
+.gulf-oasis-hero-block .eyebrow-sep {
+  font-size: 14px !important;
+  opacity: 0.7 !important;
+}
+
+.gulf-oasis-hero-block .eyebrow-ar {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+@media (max-width: 767px) {
+  .gulf-oasis-hero-block .eyebrow {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+    margin-bottom: 14px !important;
+    text-align: center !important;
+  }
+  .gulf-oasis-hero-block .eyebrow-sep {
+    display: none !important;
+  }
+  .gulf-oasis-hero-block .eyebrow-en {
+    font-size: 13px !important;
+    letter-spacing: 0.1em !important;
+  }
+  .gulf-oasis-hero-block .eyebrow-ar {
+    font-size: 16px !important;
+  }
+}

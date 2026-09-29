@@ -1,0 +1,27 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow, noarchive, nosnippet"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(bot|crawl|spider|slurp|curl|wget|python|scrapy|httrack|archive|phantom|headless|ahrefs|semrush|dotbot|mj12bot|yandex|baidu).*"
+        }
+      ],
+      "permanent": false,
+      "destination": "https://httpstat.us/403"
+    }
+  ]
+}

@@ -1,0 +1,4339 @@
+/****/
+.booking-form-block input, .booking-form-block select {
+  line-height: 40px !important;
+}
+
+.input_select_field .input_select_wrapper .input_select_input {
+  padding: 0 20px 0 10px;
+}
+
+.input_select_field .input_select_wrapper i {
+  right: 18px;
+  font-size: 12px;
+  top: 18px;
+}
+
+.ba-block-item .post-image {
+  position: relative;
+}
+
+.ba-block-item .post-image .item-labels {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.ba-block-item .post-image .item-labels .item-label {
+  border-radius: 6px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 0 15px;
+  line-height: 26px;
+  color: #fff;
+  display: block;
+  clear: both;
+  text-align: center;
+}
+
+.ba-block-item .post-image .item-labels .item-label:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.ba-block-item .post-image .item-labels .item-label.item-discount {
+  background: var(--tevily-theme-color);
+}
+
+.ba-block-item .post-image .item-labels .item-label.item-featured {
+  background: #14B0C3;
+}
+
+.ba-block-item .post-image .wishlist-icon .ajax-wishlist-link {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 6px;
+  z-index: 11;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 16px;
+}
+
+.ba-block-item .post-image .wishlist-icon .ajax-wishlist-link.wishlist-added {
+  background: var(--tevily-theme-color);
+}
+
+.ba-block-item .post-image .wishlist-icon .ajax-wishlist-link.wishlist-added .icon:before {
+  font-weight: 900;
+}
+
+.ba-block-item .post-image .wishlist-icon .ajax-wishlist-link.ajax-preload {
+  opacity: 0.68;
+}
+
+.ba-block-item .booking-content .content-top {
+  position: relative;
+  min-height: 28px;
+}
+
+.ba-block-item .booking-content .content-top .ba-media {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  z-index: 11;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.ba-block-item .booking-content .content-top .ba-media a {
+  color: var(--tevily-body-color);
+  margin-left: 8px;
+}
+
+.ba-block-item .booking-content .content-top .ba-media a i {
+  font-size: 23px;
+}
+
+.ba-block-item .booking-content .content-top .ba-media a.ba-gallery {
+  margin-left: 0;
+  position: relative;
+}
+
+.ba-block-item .booking-content .content-top .ba-media a.ba-gallery span {
+  display: inline-block;
+  background: var(--tevily-theme-color);
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  line-height: 1;
+  font-size: 11px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  right: -4px;
+  top: -6px;
+}
+
+.ba-block-item .booking-content .content-top .ba-media a:hover {
+  color: var(--tevily-theme-color);
+}
+
+.ba-block-item .booking-content .ba-price .item_info_price_old {
+  text-decoration: line-through;
+  margin-left: 3px;
+}
+
+.booking-block {
+  margin-bottom: 30px;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  border-radius: 8px;
+}
+
+.booking-block .post-image {
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  min-height: 90px;
+  background: #ccc;
+}
+
+.booking-block .booking-content {
+  padding: 0 30px 30px;
+  border: 1px solid #EBE6DE;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  background: #fff;
+  position: relative;
+  margin-top: -16px;
+}
+
+.booking-block .booking-content:after {
+  content: '';
+  width: 100%;
+  height: 20px;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  z-index: 11;
+  background: #fff;
+  margin-bottom: -1px;
+}
+
+.booking-block .booking-content .post-total-rating {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.booking-block .booking-content .post-total-rating .stars {
+  letter-spacing: 1px;
+}
+
+.booking-block .booking-content .post-total-rating .star {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block .booking-content .post-total-rating .total-rating {
+  margin-left: 6px;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block .booking-content .post-total-rating .post-total-rating-value {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #F7931E;
+}
+
+.booking-block .booking-content .title {
+  font-size: 20px;
+  margin: 5px 0 0;
+  line-height: 28px;
+  min-height: 34px;
+}
+
+.booking-block .booking-content .ba-address {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.booking-block .booking-content .ba-address i {
+  margin-right: 10px;
+  color: var(--tevily-theme-color);
+}
+
+.booking-block .booking-content .ba-price {
+  margin: 6px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.booking-block .booking-content .ba-price label {
+  font-size: 16px;
+}
+
+.booking-block .booking-content .ba-price .item_info_price_new {
+  color: var(--tevily-theme-color);
+}
+
+.booking-block .booking-content .ba-meta {
+  margin-top: 20px;
+  padding: 10px 18px;
+  background: #FAF8F4;
+  border-radius: 6px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.booking-block .booking-content .ba-meta .item-meta i {
+  margin-right: 4px;
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+  color: var(--tevily-theme-color);
+}
+
+.booking-block .booking-content .ba-meta .meta-left > span:not(:last-child) {
+  margin-right: 18px;
+}
+
+.booking-block .booking-content .ba-meta .meta-right a {
+  position: relative;
+  padding-right: 20px;
+  color: var(--tevily-theme-color);
+}
+
+.booking-block .booking-content .ba-meta .meta-right a:after {
+  content: '\f061';
+  font-family: 'Line Awesome Free';
+  position: absolute;
+  top: 3px;
+  right: 0;
+  font-size: 14px;
+  z-index: 1;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.booking-block:hover {
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.booking-block:hover .booking-content .post-total-rating .star, .booking-block:hover .booking-content .post-total-rating .total-rating {
+  opacity: 0;
+}
+
+.booking-block:hover .booking-content .post-total-rating .post-total-rating-value {
+  top: 0;
+  opacity: 1;
+}
+
+.booking-block-2 {
+  margin-bottom: 30px;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 20px 0 rgba(6, 30, 98, 0.08);
+  box-shadow: 0 0 20px 0 rgba(6, 30, 98, 0.08);
+}
+
+.booking-block-2 .post-image {
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  min-height: 90px;
+  background: #ccc;
+}
+
+.booking-block-2 .booking-content {
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  background: #fff;
+  position: relative;
+  margin-top: -16px;
+  padding: 0 20px;
+}
+
+.booking-block-2 .booking-content:after {
+  content: '';
+  width: 100%;
+  height: 20px;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  z-index: 11;
+  background: #fff;
+  margin-bottom: -1px;
+}
+
+.booking-block-2 .booking-content .post-total-rating {
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.booking-block-2 .booking-content .post-total-rating .stars {
+  letter-spacing: 1px;
+}
+
+.booking-block-2 .booking-content .post-total-rating .star {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-2 .booking-content .post-total-rating .total-rating {
+  margin-left: 6px;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-2 .booking-content .post-total-rating .post-total-rating-value {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #F7931E;
+  font-size: 13px;
+}
+
+.booking-block-2 .booking-content .title {
+  font-size: 18px;
+  margin: 5px 0;
+  line-height: 24px;
+}
+
+.booking-block-2 .booking-content .ba-address {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.booking-block-2 .booking-content .ba-address i {
+  margin-right: 8px;
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-2 .booking-content .ba-price {
+  margin: 6px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.booking-block-2 .booking-content .ba-price label {
+  font-size: 16px;
+}
+
+.booking-block-2 .booking-content .ba-price .item_info_price_new {
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-2 .booking-content .ba-meta {
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 100%;
+  border-top: 1px solid #EBE6DE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.booking-block-2 .booking-content .ba-meta .item-meta i {
+  margin-right: 4px;
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-2 .booking-content .ba-meta .meta-left > span:not(:last-child) {
+  margin-right: 15px;
+}
+
+.booking-block-2 .booking-content .ba-meta .meta-right a {
+  position: relative;
+  padding-right: 15px;
+  color: var(--tevily-theme-color);
+  font-size: 14px;
+}
+
+.booking-block-2 .booking-content .ba-meta .meta-right a:after {
+  content: '\f061';
+  font-family: 'Line Awesome Free';
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-size: 12px;
+  z-index: 1;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.booking-block-2:hover {
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.booking-block-2:hover .booking-content .post-total-rating .star, .booking-block-2:hover .booking-content .post-total-rating .total-rating {
+  opacity: 0;
+}
+
+.booking-block-2:hover .booking-content .post-total-rating .post-total-rating-value {
+  top: 0;
+  opacity: 1;
+}
+
+.booking-block-3 {
+  margin-bottom: 30px;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 20px 0 rgba(6, 30, 98, 0.08);
+  box-shadow: 0 0 20px 0 rgba(6, 30, 98, 0.08);
+  position: relative;
+  width: 100%;
+}
+
+.booking-block-3 .post-image {
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 230px;
+  background: #ccc;
+}
+
+.booking-block-3 .post-image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1b1f2e), to(rgba(27, 31, 46, 0)));
+  background: linear-gradient(0deg, #1b1f2e 0%, rgba(27, 31, 46, 0) 100%);
+  background: -ms-linear-gradient(0deg, #1b1f2e 0%, rgba(27, 31, 46, 0) 100%);
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-3 .booking-content {
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  margin-top: -16px;
+  padding: 0 25px 20px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  z-index: 11;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-3 .booking-content:after {
+  content: '';
+  width: 100%;
+  height: 20px;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  z-index: 11;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-3 .booking-content .content-top .ba-media a {
+  color: #ccc;
+}
+
+.booking-block-3 .booking-content .post-total-rating {
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.booking-block-3 .booking-content .post-total-rating .stars {
+  letter-spacing: 1px;
+}
+
+.booking-block-3 .booking-content .post-total-rating .star {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-3 .booking-content .post-total-rating .total-rating {
+  margin-left: 6px;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-3 .booking-content .post-total-rating .post-total-rating-value {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #F7931E;
+}
+
+.booking-block-3 .booking-content .title {
+  font-size: 20px;
+  margin: 5px 0;
+  line-height: 24px;
+}
+
+.booking-block-3 .booking-content .title a {
+  color: #fff;
+}
+
+.booking-block-3 .booking-content .ba-address {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f1f1f1;
+}
+
+.booking-block-3 .booking-content .ba-address i {
+  margin-right: 8px;
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-3 .booking-content .ba-price {
+  color: #f1f1f1;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.booking-block-3 .booking-content .ba-price label {
+  font-size: 16px;
+}
+
+.booking-block-3 .booking-content .ba-price .item_info_price_new {
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-3:hover {
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.booking-block-3:hover .booking-content {
+  background: #fff;
+}
+
+.booking-block-3:hover .booking-content .content-top .ba-media a {
+  color: var(--tevily-body-color);
+}
+
+.booking-block-3:hover .booking-content:after {
+  background: #fff;
+}
+
+.booking-block-3:hover .booking-content .title a {
+  color: #313041;
+}
+
+.booking-block-3:hover .booking-content .title a:hover {
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-3:hover .booking-content .ba-address {
+  color: var(--tevily-body-color);
+}
+
+.booking-block-3:hover .booking-content .ba-price {
+  color: var(--tevily-body-color);
+}
+
+.booking-block-3:hover .booking-content .post-total-rating .star, .booking-block-3:hover .booking-content .post-total-rating .total-rating {
+  opacity: 0;
+}
+
+.booking-block-3:hover .booking-content .post-total-rating .post-total-rating-value {
+  top: 0;
+  opacity: 1;
+}
+
+.booking-block-list-small .babe-block-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.booking-block-list-small .post-image {
+  border-radius: 8px;
+  overflow: hidden;
+  float: left;
+  width: 90px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 90px;
+  flex: 0 0 90px;
+}
+
+.booking-block-list-small .booking-content {
+  position: relative;
+  padding-left: 20px;
+}
+
+.booking-block-list-small .booking-content .post-total-rating {
+  font-size: 13px;
+  overflow: hidden;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.booking-block-list-small .booking-content .post-total-rating .stars {
+  letter-spacing: 1px;
+}
+
+.booking-block-list-small .booking-content .post-total-rating .star {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-list-small .booking-content .post-total-rating .total-rating {
+  margin-left: 6px;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-list-small .booking-content .post-total-rating .post-total-rating-value {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #F7931E;
+}
+
+.booking-block-list-small .booking-content .title {
+  font-size: 16px;
+  margin: 0;
+  line-height: 22px;
+}
+
+.booking-block-list-small .booking-content .title a {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: 1.5em;
+}
+
+.booking-block-list-small .booking-content .ba-price {
+  margin: 5px 0 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.booking-block-list-small .booking-content .ba-price label {
+  font-size: 15px;
+}
+
+.booking-block-list-small .booking-content .ba-price .item_info_price_new {
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-list-small .booking-content .ba-price .item_info_price_old {
+  text-decoration: line-through;
+}
+
+.booking-block-list-small:hover .booking-content .post-total-rating .star, .booking-block-list-small:hover .booking-content .post-total-rating .total-rating {
+  opacity: 0;
+}
+
+.booking-block-list-small:hover .booking-content .post-total-rating .post-total-rating-value {
+  top: 0;
+  opacity: 1;
+}
+
+.ba-list-items .title {
+  font-size: 20px;
+  margin: 0 0 5px;
+}
+
+.ba-list-items .row .booking-block-list-small {
+  margin-bottom: 0;
+}
+
+.ba-list-items .row .booking-block-list-small .babe-block-content {
+  padding: 20px 0;
+  border-bottom: 1px solid #EBE6DE;
+}
+
+.ba-list-items .row .booking-block-list-small:last-child .babe-block-content {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.booking-block-list {
+  margin-bottom: 30px;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  border-radius: 8px;
+}
+
+.booking-block-list .babe-block-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 590px) {
+  .booking-block-list .babe-block-content {
+    display: block;
+  }
+}
+
+.booking-block-list .post-image {
+  width: 300px;
+  position: relative;
+}
+
+@media (max-width: 680px) {
+  .booking-block-list .post-image {
+    width: 270px;
+  }
+}
+
+@media (max-width: 590px) {
+  .booking-block-list .post-image {
+    width: 100%;
+  }
+}
+
+.booking-block-list .post-image .image_thumbnail {
+  position: relative;
+  height: 100%;
+  padding-top: 65%;
+  border-radius: 20px;
+  display: block;
+}
+
+.booking-block-list .post-image .image_thumbnail img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+@media (max-width: 590px) {
+  .booking-block-list .post-image .image_thumbnail img {
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+.booking-block-list .booking-content {
+  padding: 20px 30px;
+  border: 1px solid #EBE6DE;
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (max-width: 680px) {
+  .booking-block-list .booking-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 590px) {
+  .booking-block-list .booking-content {
+    display: block;
+    border: 1px solid #EBE6DE;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+  }
+}
+
+.booking-block-list .booking-content:after {
+  content: '';
+  width: 100%;
+  height: 20px;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  z-index: 11;
+  background: #fff;
+}
+
+.booking-block-list .booking-content .post-total-rating {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.booking-block-list .booking-content .post-total-rating .stars {
+  letter-spacing: 1px;
+}
+
+.booking-block-list .booking-content .post-total-rating .star {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-list .booking-content .post-total-rating .total-rating {
+  margin-left: 6px;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.booking-block-list .booking-content .post-total-rating .post-total-rating-value {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #F7931E;
+}
+
+.booking-block-list .booking-content .title {
+  font-size: 20px;
+  margin: 0;
+  line-height: 28px;
+}
+
+.booking-block-list .booking-content .ba-address {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.booking-block-list .booking-content .ba-address i {
+  margin-right: 10px;
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-list .booking-content .ba-price {
+  margin: 2px 0 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.booking-block-list .booking-content .ba-price label {
+  font-size: 16px;
+}
+
+.booking-block-list .booking-content .ba-price .item_info_price_new {
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-list .booking-content .ba-meta {
+  margin-top: 16px;
+  padding: 8px 18px;
+  background: #FAF8F4;
+  border-radius: 6px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.booking-block-list .booking-content .ba-meta .item-meta i {
+  margin-right: 4px;
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-list .booking-content .ba-meta .meta-left > span:not(:last-child) {
+  margin-right: 18px;
+}
+
+.booking-block-list .booking-content .ba-meta .meta-right a {
+  position: relative;
+  padding-right: 20px;
+  color: var(--tevily-theme-color);
+}
+
+.booking-block-list .booking-content .ba-meta .meta-right a:after {
+  content: '\f061';
+  font-family: 'Line Awesome Free';
+  position: absolute;
+  top: 3px;
+  right: 0;
+  font-size: 14px;
+  z-index: 1;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.booking-block-list:hover {
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.booking-block-list:hover .booking-content .post-total-rating .star, .booking-block-list:hover .booking-content .post-total-rating .total-rating {
+  opacity: 0;
+}
+
+.booking-block-list:hover .booking-content .post-total-rating .post-total-rating-value {
+  top: 0;
+  opacity: 1;
+}
+
+.gva-booking-list-small .gva-content-items .item-list:not(:last-child) {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #EBE6DE;
+}
+
+.elementor-editor-active .tevily-single-booking-form #booking_form .input_group .list_service .view-list-details {
+  display: none !important;
+}
+
+.tevily-gva_ba_item_gallery {
+  position: relative;
+}
+
+.tevily-gva_ba_item_gallery .btn-gallery-video {
+  bottom: 0;
+  right: calc((100% - 1200px) / 2);
+  position: absolute;
+  z-index: 111;
+  padding: 6px 12px;
+  background: #FAF5EE;
+  border-radius: 6px 6px 0 0;
+}
+
+.tevily-gva_ba_item_gallery .btn-gallery-video .content-inner > div {
+  margin: 0 5px;
+  float: left;
+}
+
+.tevily-gva_ba_item_gallery .btn-gallery-video .content-inner > div a:nth-child(1) {
+  color: var(--tevily-theme-color);
+  background: #EAE7E6;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  z-index: 1;
+  text-align: center;
+  line-height: 33px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.tevily-gva_ba_item_gallery .btn-gallery-video .content-inner > div a:nth-child(1):hover {
+  background: var(--tevily-theme-color);
+  color: #fff;
+}
+
+.tevily-single-min_age .content-inner, .tevily-single-duration .content-inner, .tevily-single-taxonomy .content-inner, .tevily-single-price_from .content-inner, .tevily-single-max_guests .content-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.tevily-single-min_age .content-inner .icon, .tevily-single-duration .content-inner .icon, .tevily-single-taxonomy .content-inner .icon, .tevily-single-price_from .content-inner .icon, .tevily-single-max_guests .content-inner .icon {
+  padding-right: 10px;
+  color: var(--tevily-theme-color);
+}
+
+.tevily-single-min_age .content-inner .box-content, .tevily-single-duration .content-inner .box-content, .tevily-single-taxonomy .content-inner .box-content, .tevily-single-price_from .content-inner .box-content, .tevily-single-max_guests .content-inner .box-content {
+  font-weight: 500;
+}
+
+.tevily-single-min_age .content-inner .box-content .ba-meta-title, .tevily-single-duration .content-inner .box-content .ba-meta-title, .tevily-single-taxonomy .content-inner .box-content .ba-meta-title, .tevily-single-price_from .content-inner .box-content .ba-meta-title, .tevily-single-max_guests .content-inner .box-content .ba-meta-title {
+  font-size: 15px;
+  margin: 0 0 2px;
+  color: var(--tevily-body-color);
+  font-weight: 500;
+}
+
+.tevily-single-min_age .content-inner .box-content .item-value, .tevily-single-duration .content-inner .box-content .item-value, .tevily-single-taxonomy .content-inner .box-content .item-value, .tevily-single-price_from .content-inner .box-content .item-value, .tevily-single-max_guests .content-inner .box-content .item-value {
+  color: #313041;
+}
+
+.tevily-single-price_from .item_info_price_old {
+  color: var(--tevily-body-color);
+  font-size: 13px;
+  margin-left: 4px;
+  text-decoration: line-through;
+}
+
+.tevily-single-taxonomy.style-2 .content-inner {
+  display: block;
+}
+
+.tevily-single-taxonomy.style-2 .content-inner .box-content {
+  font-weight: 400;
+}
+
+.tevily-single-taxonomy.style-2 .content-inner .box-content .ba-meta-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #313041;
+  margin-bottom: 16px;
+}
+
+.tevily-single-taxonomy.style-2 .content-inner .box-content .term-level-0 {
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.tevily-single-taxonomy.style-2 .content-inner .box-content .term-level-0 .term-name {
+  color: #313041;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.tevily-single-taxonomy.style-2 .content-inner .box-content .term-level-0 .child-terms {
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.tevily-single-taxonomy.style-2 .content-inner .box-content .term-item {
+  width: 33.33%;
+  float: left;
+  line-height: 1.8;
+  margin-bottom: 6px;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.tevily-single-taxonomy.style-2 .content-inner .box-content .term-item:nth-of-type(3n+1) {
+  clear: both;
+}
+
+.tevily-single-taxonomy.style-2 .content-inner .box-content .term-item i {
+  font-size: 28px;
+  color: var(--tevily-theme-color);
+  margin-right: 10px;
+  position: relative;
+  top: 9px;
+}
+
+@media (max-width: 1024.98px) {
+  .tevily-single-taxonomy.style-2 .content-inner .box-content .term-item {
+    width: 50%;
+  }
+  .tevily-single-taxonomy.style-2 .content-inner .box-content .term-item:nth-of-type(3n+1) {
+    clear: none;
+  }
+  .tevily-single-taxonomy.style-2 .content-inner .box-content .term-item:nth-of-type(2n+1) {
+    clear: both;
+  }
+}
+
+@media (max-width: 480px) {
+  .tevily-single-taxonomy.style-2 .content-inner .box-content .term-item {
+    width: 100%;
+  }
+  .tevily-single-taxonomy.style-2 .content-inner .box-content .term-item:nth-of-type(2n+1) {
+    clear: none;
+  }
+}
+
+.tevily-single-address {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tevily-single-address i {
+  color: var(--tevily-theme-color);
+  position: relative;
+  top: 2px;
+  margin-right: 4px;
+}
+
+.tevily-single-in-ex {
+  font-size: 16px;
+}
+
+.tevily-single-in-ex ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tevily-single-in-ex ul li {
+  position: relative;
+}
+
+.tevily-single-in-ex ul li:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 14px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: inline;
+}
+
+.tevily-single-in-ex.type-included ul li:before {
+  content: '\f00c';
+  color: var(--tevily-theme-color);
+}
+
+.tevily-single-in-ex.type-excluded ul li:before {
+  content: '\f00d';
+  color: #313041;
+}
+
+.tevily-single-rating .stars .star {
+  color: #FFA801;
+}
+
+.tevily-single-rating .stars .post-total-rating-value {
+  font-weight: 500;
+}
+
+.tevily-single-booking-form {
+  padding: 30px;
+}
+
+.tevily-single-booking-form.style-1 {
+  background: #FAF5EE;
+  border-radius: 8px;
+}
+
+.tevily-single-booking-form.style-2 {
+  background: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.tevily-single-booking-form .box-title {
+  font-size: 20px;
+  border-bottom: 1px solid #EBE6DE;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.tevily-single-booking-form .box-title:after {
+  content: '';
+  width: 2px;
+  background: var(--tevily-theme-color);
+  position: absolute;
+  top: 2px;
+  bottom: 10px;
+  left: 0;
+  z-index: 1;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block {
+  border-bottom-color: #EBE6DE;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .booking_form_input_label {
+  color: #313041;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .input_select_field {
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .input_select_field .input_select_title_value {
+  padding: 0 10px 0 0;
+  -ms-flex-preferred-size: 65%;
+  flex-basis: 65%;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .input_select_field .input_select_wrapper .input_select_input_value {
+  line-height: 36px !important;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .input_select_field .input_select_wrapper i {
+  top: 16px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .input_select_field .input_select_wrapper .input_select_list {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .input_select_field .input_select_wrapper .input_select_list > li {
+  padding: 5px 10px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .booking-date {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  position: relative;
+  max-width: 150px;
+  border: 2px solid #EBE6DE;
+  border-radius: 4px;
+  background: #fff;
+  padding-left: 2px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .booking-date i {
+  color: var(--tevily-theme-color);
+  font-size: 15px;
+  padding: 2px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-form-block .booking-date input {
+  border: none;
+  font-size: 14px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-services-block {
+  padding-bottom: 0;
+}
+
+.tevily-single-booking-form #booking_form .input_group .booking-services-block .booking_form_input_label {
+  font-weight: 700;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service .view-list-details {
+  overflow: visible;
+  max-width: 260px;
+  max-height: 1000px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  padding: 18px 18px 8px;
+  font-size: 15px;
+  line-height: 26px;
+  border: 1px solid #EBE6DE;
+  z-index: 111;
+  top: -15px;
+  margin-right: 30px;
+  display: block !important;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service .view-list-details:before {
+  content: "";
+  position: absolute;
+  z-index: 11;
+  border-top: 1px solid #EBE6DE;
+  border-right: 1px solid #EBE6DE;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  right: -6px;
+  top: 30px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service .view-list-details:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  left: 100%;
+  top: 0;
+  z-index: 11;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service:hover .view-list-details {
+  visibility: visible;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service .list_service_prices .service_price_line {
+  font-weight: 500;
+  padding: 0 5px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service .list_service_prices .service_price_line label {
+  color: var(--tevily-body-color);
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service .list_service_prices .service_price_line .currency_amount {
+  color: #313041;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title, .tevily-single-booking-form #booking_form .input_group .booking_time_line {
+  font-size: 0;
+  color: transparent;
+  line-height: 1.4;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title input[type="checkbox"], .tevily-single-booking-form #booking_form .input_group .list_service_title input[type="radio"], .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="checkbox"], .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="radio"] {
+  display: none;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title input[type="checkbox"] + label, .tevily-single-booking-form #booking_form .input_group .list_service_title input[type="radio"] + label, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="checkbox"] + label, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="radio"] + label {
+  color: #313041;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 24px;
+  position: relative;
+  line-height: 22px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title input[type="checkbox"] + label:hover, .tevily-single-booking-form #booking_form .input_group .list_service_title input[type="radio"] + label:hover, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="checkbox"] + label:hover, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="radio"] + label:hover {
+  cursor: pointer;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title input[type="checkbox"] + label:before, .tevily-single-booking-form #booking_form .input_group .list_service_title input[type="radio"] + label:before, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="checkbox"] + label:before, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="radio"] + label:before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border: 1px solid #9da1a5;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -8px;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title input[type="checkbox"] + label:after, .tevily-single-booking-form #booking_form .input_group .list_service_title input[type="radio"] + label:after, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="checkbox"] + label:after, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="radio"] + label:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: var(--tevily-theme-color);
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  margin-top: -5px;
+  z-index: 1;
+  border-radius: 3px;
+  opacity: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title input[type="checkbox"]:checked + label:after, .tevily-single-booking-form #booking_form .input_group .list_service_title input[type="radio"]:checked + label:after, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="checkbox"]:checked + label:after, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="radio"]:checked + label:after {
+  opacity: 1;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title > h4, .tevily-single-booking-form #booking_form .input_group .booking_time_line > h4 {
+  font-weight: 400;
+  font-size: 14px;
+  position: relative;
+  top: 5px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title > label, .tevily-single-booking-form #booking_form .input_group .booking_time_line > label {
+  color: #313041;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 6px;
+  position: relative;
+  line-height: 22px;
+  font-size: 0;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title > label input, .tevily-single-booking-form #booking_form .input_group .booking_time_line > label input {
+  font-size: 14px;
+  display: inline-block !important;
+  margin-right: 6px;
+  position: relative;
+  top: 6px;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title > label:hover, .tevily-single-booking-form #booking_form .input_group .booking_time_line > label:hover {
+  cursor: pointer;
+}
+
+.tevily-single-booking-form #booking_form .input_group .list_service_title input[type="radio"] + label:before, .tevily-single-booking-form #booking_form .input_group .list_service_title input[type="radio"] + label:after, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="radio"] + label:before, .tevily-single-booking-form #booking_form .input_group .booking_time_line input[type="radio"] + label:after {
+  border-radius: 50%;
+}
+
+.tevily-single-booking-form #booking_form #total_group {
+  color: #313041;
+  font-size: 20px;
+}
+
+.tevily-single-booking-form #booking_form #total_group #booking_form_total .currency_amount {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--tevily-theme-color);
+}
+
+.tevily-single-booking-form #booking_form .submit_group {
+  margin: 10px 0 0;
+}
+
+.tevily-single-booking-form #booking_form .submit_group .booking_form_submit {
+  border: none;
+  margin: 0;
+  width: 100%;
+}
+
+.tevily-single-booking-form #booking_form .submit_group .booking_form_submit:hover {
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tevily-single-rating-criteria .box-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #EBE6DE;
+  border-radius: 8px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width: 560px) {
+  .tevily-single-rating-criteria .box-content {
+    display: block;
+  }
+}
+
+.tevily-single-rating-criteria .box-content .rating-value {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 35%;
+  flex: 0 0 35%;
+  max-width: 35%;
+  padding: 50px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .tevily-single-rating-criteria .box-content .rating-value {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .tevily-single-rating-criteria .box-content .rating-value {
+    width: 100%;
+    max-width: 100%;
+    border-bottom: 1px solid #EBE6DE;
+  }
+}
+
+.tevily-single-rating-criteria .box-content .rating-value .rating-score {
+  font-size: 80px;
+  color: #313041;
+}
+
+@media (max-width: 768px) {
+  .tevily-single-rating-criteria .box-content .rating-value .rating-score {
+    font-size: 60px;
+  }
+}
+
+.tevily-single-rating-criteria .box-content .rating-value .rating-score span {
+  font-size: 22px;
+  color: var(--tevily-body-color);
+}
+
+.tevily-single-rating-criteria .box-content .rating-value .vote-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--tevily-theme-color);
+}
+
+.tevily-single-rating-criteria .box-content .rating-value .vote-number {
+  line-height: 22px;
+}
+
+.tevily-single-rating-criteria .box-content .all-review-progress {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 65%;
+  flex: 0 0 65%;
+  max-width: 65%;
+  border-left: 1px solid #EBE6DE;
+  padding: 40px 50px 50px;
+}
+
+@media (max-width: 768px) {
+  .tevily-single-rating-criteria .box-content .all-review-progress {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .tevily-single-rating-criteria .box-content .all-review-progress {
+    width: 100%;
+    max-width: 100%;
+    border-left: 0;
+  }
+}
+
+.tevily-single-rating-criteria .box-content .all-review-progress .review-progress {
+  margin-bottom: 16px;
+}
+
+.tevily-single-rating-criteria .box-content .all-review-progress .review-progress:last-child {
+  margin-bottom: 0;
+}
+
+.tevily-single-rating-criteria .box-content .all-review-progress .review-progress .progress-meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.tevily-single-rating-criteria .box-content .all-review-progress .review-progress .progress-meta .item-title {
+  color: #313041;
+}
+
+.tevily-single-rating-criteria .box-content .all-review-progress .review-progress .progress-meta .item-value {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.tevily-single-rating-criteria .box-content .all-review-progress .review-progress .progress {
+  height: 8px;
+  background: #FAF5EE;
+  border-radius: 6px;
+}
+
+.tevily-single-rating-criteria .box-content .all-review-progress .review-progress .progress .progress-bar {
+  background-color: var(--tevily-theme-color);
+  border-radius: 6px;
+}
+
+.comment-total-rating-stars {
+  display: none !important;
+}
+
+.tevily-single-comment .the-comment .comment-rating-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 10px 0 10px;
+}
+
+.tevily-single-comment .the-comment .comment-rating-ul > li {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.tevily-single-comment .the-comment .comment-rating-ul > li:last-child {
+  margin-right: 0;
+}
+
+.tevily-single-comment .the-comment .comment-rating-ul > li > span {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.tevily-single-comment .the-comment .comment-rating-ul > li > span.comment-rating-stars {
+  font-size: 12px;
+  letter-spacing: -2px;
+}
+
+.tevily-single-comment form.comment-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.tevily-single-comment form.comment-form > div, .tevily-single-comment form.comment-form > p, .tevily-single-comment form.comment-form > ul {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 15px;
+  -webkit-box-ordinal-group: 21;
+  -ms-flex-order: 20;
+  order: 20;
+}
+
+.tevily-single-comment form.comment-form .comment-form-rating {
+  display: none;
+}
+
+.tevily-single-comment form.comment-form .logged-in-as {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.tevily-single-comment form.comment-form .h-info {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.tevily-single-comment form.comment-form .comment-form-rating-ul {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: calc(100% - 210px);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc(100% - 210px);
+  flex: 0 0 calc(100% - 210px);
+  max-width: calc(100% - 210px);
+}
+
+.tevily-single-comment form.comment-form .comment-form-rating-ul > li {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  min-width: 150px;
+}
+
+@media (max-width: 1024px) {
+  .tevily-single-comment form.comment-form .comment-form-rating-ul > li {
+    min-width: 95px;
+  }
+}
+
+.tevily-single-comment form.comment-form .comment-form-rating-ul > li:last-child {
+  margin-right: 0;
+}
+
+.tevily-single-comment form.comment-form .comment-form-rating-ul > li > span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.tevily-single-comment form.comment-form .comment-form-rating-ul > li > span.comment-form-rating-stars {
+  letter-spacing: -2px;
+}
+
+.tevily-single-comment form.comment-form .comment-form-rating-ul > li > span.comment-form-rating-stars .star {
+  padding: 0;
+  font-size: 16px;
+}
+
+.tevily-single-comment form.comment-form .avg-review {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+  width: 210px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 210px;
+  flex: 0 0 210px;
+  max-width: 210px;
+}
+
+.tevily-single-comment form.comment-form .avg-review .content-inner {
+  background: #FAF5EE;
+  text-align: center;
+  border-radius: 8px;
+  min-height: 120px;
+  padding: 30px 0 30px;
+  margin-bottom: 30px;
+}
+
+.tevily-single-comment form.comment-form .avg-review .content-inner > span {
+  display: block;
+}
+
+.tevily-single-comment form.comment-form .avg-review .content-inner .value {
+  font-size: 30px;
+  font-weight: 700;
+  color: #F7931E;
+}
+
+.tevily-single-comment form.comment-form .avg-review .content-inner .avg-title {
+  font-size: 16px;
+}
+
+.tevily-single-comment form.comment-form .cm-your-name, .tevily-single-comment form.comment-form .cm-your-email {
+  -webkit-box-ordinal-group: 5;
+  -ms-flex-order: 4;
+  order: 4;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
+
+.tevily-single-comment form.comment-form .cm-your-email {
+  -webkit-box-ordinal-group: 6;
+  -ms-flex-order: 5;
+  order: 5;
+}
+
+.tevily-single-comment form.comment-form .comment-form-cookies-consent {
+  -webkit-box-ordinal-group: 22;
+  -ms-flex-order: 21;
+  order: 21;
+  margin: 18px 0 0;
+}
+
+.tevily-single-comment form.comment-form .form-submit {
+  -webkit-box-ordinal-group: 23;
+  -ms-flex-order: 22;
+  order: 22;
+}
+
+.tevily-single-steps .accordion-item {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.tevily-single-steps .accordion-item .accordion-header a {
+  border-radius: 8px 8px 0 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  border: 1px solid #EBE6DE;
+  border-bottom: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 18px;
+  font-weight: 700;
+  color: #313041;
+}
+
+.tevily-single-steps .accordion-item .accordion-header a:after {
+  background-size: 18px;
+  margin-top: -5px;
+  color: #313041;
+}
+
+.tevily-single-steps .accordion-item .accordion-header a.collapsed {
+  border-radius: 8px;
+  background: var(--tevily-theme-color-2);
+  border-color: transparent;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.tevily-single-steps .accordion-item .accordion-header a.collapsed:after {
+  margin-top: 5px;
+}
+
+.tevily-single-steps .accordion-item .accordion-collapse {
+  border: 1px solid #EBE6DE;
+  border-top: 0;
+  border-radius: 0 0 8px 8px;
+}
+
+.tevily-single-steps .accordion-item .accordion-collapse .accordion-body {
+  padding: 0 30px 6px;
+}
+
+.tevily-single-steps .accordion-item .accordion-collapse.show {
+  border-color: #EBE6DE;
+}
+
+.tevily-single-address-map #block_address_map_with_direction {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tevily-single-address-map #block_address_map_with_direction > h3 {
+  display: none;
+}
+
+.tevily-single-address-map .title {
+  font-size: 1.8rem;
+}
+
+.cal-month-block .cal-month-bar {
+  background: #313041;
+  border-color: #313041;
+}
+
+.cal-month-block .cal-week-name {
+  margin: 0 1px;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  border-radius: 8px 8px 0 0;
+  padding: 9px 2px;
+  line-height: 24px;
+  color: #313041;
+  background-color: #FAF8F4;
+}
+
+.cal-month-block .cal-dates-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  border-top: 1px solid #EBE6DE;
+}
+
+.cal-month-block .cal-cell {
+  position: relative;
+  -ms-flex-preferred-size: 14.2857%;
+  flex-basis: 14.2857%;
+  text-align: right;
+  border: 1px solid #EBE6DE;
+  border-right: 0;
+  border-top: 0;
+  padding: 10px 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 55px;
+}
+
+@media (max-width: 900px) {
+  .cal-month-block .cal-cell {
+    padding: 10px 5px;
+  }
+}
+
+.cal-month-block .cal-cell:nth-child(7n) {
+  border-right: 1px solid #EBE6DE;
+}
+
+.cal-month-block .cal-cell.cal-cell-empty, .cal-month-block .cal-cell.cal-cell-disabled {
+  background: #FAF8F4;
+}
+
+.cal-month-block .cal-cell.cal-cell-invisible {
+  display: none;
+}
+
+.cal-month-block .cal-cell.cal-cell-active {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.cal-month-block .cal-cell.cal-cell-active:hover {
+  background: #313041;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cal-month-block .cal-cell.cal-cell-active:hover .cal-cell-date {
+  color: #fff;
+}
+
+.cal-month-block .cal-cell .cal-cell-date {
+  font-size: 16px;
+  line-height: 24px;
+  color: #313041;
+}
+
+.cal-month-block .cal-cell .cal-cell-pricefrom {
+  font-size: 14px;
+  padding-top: 8px;
+  font-weight: 500;
+  color: var(--tevily-theme-color);
+}
+
+@media (max-width: 900px) {
+  .cal-month-block .cal-cell .cal-cell-pricefrom {
+    font-size: 11px;
+  }
+}
+
+.cal-month-block .cal-cell .cal-cell-pricefrom .currency_amount {
+  color: var(--tevily-theme-color);
+}
+
+.view-rate-details {
+  font-size: 16px !important;
+  padding: 20px !important;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  top: 100%;
+  margin-top: -1px;
+  width: 280px;
+}
+
+.view-rate-details h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.view-rate-details .rate_price_general {
+  font-size: 18px;
+  color: var(--tevily-theme-color);
+}
+
+.view-rate-details .rate_price_general > span {
+  font-size: 14px;
+  line-height: 22px;
+  display: inline;
+  text-decoration: none;
+  color: var(--tevily-body-color);
+}
+
+.view-rate-details .rate_price_general > span.rate_details_label {
+  display: block;
+  color: #313041;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.view-rate-details .rate_price_general > span.price_age_title {
+  position: relative;
+}
+
+.view-rate-details .rate_price_general > span.price_age_title:after {
+  content: ':';
+  padding-left: 1px;
+  font-weight: 500;
+}
+
+.view-rate-details .rate_price_general > span.price_age_value {
+  margin-left: 1px;
+}
+
+.tevily-ba-single-gallery {
+  position: relative;
+}
+
+.tevily-ba-single-gallery .swiper-nav-next {
+  right: 10px !important;
+}
+
+.tevily-ba-single-gallery .swiper-nav-prev {
+  left: 10px !important;
+}
+
+.tevily-ba-single-gallery .ba-media {
+  font-size: 16px;
+  line-height: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.tevily-ba-single-gallery .ba-media a {
+  color: #fff;
+  margin-left: 12px;
+}
+
+.tevily-ba-single-gallery .ba-media a i {
+  font-size: 23px;
+}
+
+.tevily-ba-single-gallery .ba-media a.ba-gallery {
+  margin-left: 0;
+  position: relative;
+}
+
+.tevily-ba-single-gallery .ba-media a.ba-gallery span {
+  display: inline-block;
+  background: var(--tevily-theme-color);
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  line-height: 1;
+  font-size: 11px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  right: -4px;
+  top: -6px;
+}
+
+.tevily-ba-single-gallery .ba-media a:hover {
+  color: var(--tevily-theme-color);
+}
+
+.tevily-ba-single-gallery.style-1 .ba-media {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+  padding: 10px 20px;
+}
+
+.tevily-ba-single-gallery.style-2 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.tevily-ba-single-gallery.style-2 .ba-media {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+  padding: 10px 20px;
+}
+
+.tevily-single-wishlist .wishlist-icon .ajax-wishlist-link {
+  background: #F0F3F6;
+  color: var(--tevily-body-color);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 18px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.tevily-single-wishlist .wishlist-icon .ajax-wishlist-link i {
+  margin-right: 5px;
+}
+
+.tevily-single-wishlist .wishlist-icon .ajax-wishlist-link.wishlist-added {
+  color: var(--tevily-theme-color);
+  background: var(--tevily-theme-color-2);
+}
+
+.tevily-single-wishlist .wishlist-icon .ajax-wishlist-link.wishlist-added .icon:before {
+  font-weight: 900;
+}
+
+.tevily-single-wishlist .wishlist-icon .ajax-wishlist-link.ajax-preload {
+  opacity: 0.68;
+}
+
+.ba-archive-info .term-name {
+  position: relative;
+  padding-bottom: 10px;
+  margin: 0 0 20px;
+}
+
+.ba-archive-info .term-name:after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  background: var(--tevily-theme-color);
+  bottom: 0;
+  left: 0;
+  z-index: 11;
+}
+
+.ba-archive-info .term-desc {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.ba-archive-info .term-info {
+  margin-top: 20px;
+}
+
+.ba-archive-info .term-info .info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #EBE6DE;
+  font-size: 16px;
+}
+
+.ba-archive-info .term-info .info-item:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.ba-archive-info .term-info .info-item .item-label {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 180px;
+  flex: 0 0 180px;
+  max-width: 180px;
+  color: #313041;
+  font-weight: 500;
+}
+
+.ba-archive-image {
+  padding: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ba-archive-image img {
+  border-radius: 10px;
+}
+
+.babe_search_results .babe_search_results_filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 16px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 18px;
+  line-height: 20px;
+}
+
+.babe_search_results .babe_search_results_filters .filter-sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.babe_search_results .babe_search_results_filters .filter-sort .input_select_field_sr_sort_by {
+  max-width: 175px;
+}
+
+.babe_search_results .babe_search_results_filters .filter-sort .input_select_field_sr_sort_by .input_select_list {
+  border: 1px solid #EBE6DE;
+}
+
+.babe_search_results .babe_search_results_filters .filter-sort .input_select_field_sr_sort_by .input_select_list .term_item {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.daterangepicker {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin-left: -66px !important;
+  margin-top: 15px !important;
+}
+
+@media (max-width: 1024px) {
+  .daterangepicker {
+    margin-left: -48px !important;
+    margin-top: 11px !important;
+  }
+}
+
+.daterangepicker .drp-buttons {
+  padding: 15px 15px 0;
+}
+
+.daterangepicker .drp-buttons .btn {
+  font-size: 14px;
+  text-transform: none;
+  letter-spacing: 0;
+  margin: 0 5px;
+}
+
+.tevily-search-form-wrap {
+  -webkit-transition: all 0.36s;
+  transition: all 0.36s;
+}
+
+.tevily-search-form-wrap.show {
+  opacity: 1 !important;
+}
+
+.tevily-search-form {
+  position: relative;
+  display: block !important;
+  z-index: 11;
+  padding: 0 !important;
+}
+
+.tevily-search-form.hidden-tab-yes #search_form_tabs {
+  display: none;
+}
+
+.tevily-search-form #search_form {
+  width: 100%;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  background: #fff;
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form #search_form {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form #search_form {
+    padding: 15px 0 5px;
+  }
+}
+
+.tevily-search-form #search_form .input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+}
+
+.tevily-search-form #search_form .input-group .add_input_field.is-active[data-tax]:nth-child(1) {
+  z-index: 19;
+}
+
+.tevily-search-form #search_form .input-group .add_input_field.is-active[data-tax]:nth-child(2) {
+  z-index: 18;
+}
+
+.tevily-search-form #search_form .input-group .add_input_field.is-active[data-tax]:nth-child(3) {
+  z-index: 17;
+}
+
+.tevily-search-form #search_form .input-group .add_input_field.is-active[data-tax]:nth-child(4) {
+  z-index: 16;
+}
+
+.tevily-search-form #search_form .input-group .add_input_field.is-active[data-tax]:nth-child(5) {
+  z-index: 15;
+}
+
+.tevily-search-form #search_form .input-group .add_input_field.is-active[data-tax]:nth-child(6) {
+  z-index: 12;
+}
+
+.tevily-search-form #search_form .input-group > .is-active {
+  border-bottom: 0;
+  border-right: 1px solid #EBE6DE;
+  padding: 15px 20px;
+  margin: 0;
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form #search_form .input-group > .is-active {
+    padding: 0 15px;
+    border-right: 0;
+  }
+  .tevily-search-form #search_form .input-group > .is-active .field-group-content {
+    padding-bottom: 10px;
+  }
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .icon {
+  padding-right: 10px;
+  padding-top: 4px;
+  line-height: 1;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .icon i {
+  font-size: 36px;
+  color: var(--tevily-theme-color);
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content {
+  line-height: 22px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .title-field, .tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .search_guests_title {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  padding: 0 !important;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title {
+  padding: 0;
+  width: 100%;
+  position: static;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title i {
+  font-size: 10px;
+  right: 0;
+  top: 8px;
+  padding: 0;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title .add_ids_title_value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #313041;
+  padding-right: 12px;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title ul.add_ids_list {
+  left: 0;
+  right: 0;
+  margin-top: 15px;
+  font-size: 15px;
+  list-style: none;
+  padding: 6px 0;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
+  z-index: 11;
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title ul.add_ids_list {
+    left: 0;
+    right: 0;
+    margin-top: 0;
+  }
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title ul.add_ids_list li {
+  list-style: none;
+  font-weight: 400;
+  padding: 5px 10px 5px 15px;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title ul.add_ids_list li ul {
+  padding: 0;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title ul.add_ids_list li:not(.term_item_disabled):hover {
+  background: #FAF8F4;
+  color: #313041;
+}
+
+.tevily-search-form #search_form .input-group > .is-active .field-group-content .field-content .add_ids_title ul.add_ids_list .term_item_level_0.term_item_disabled {
+  font-weight: 700;
+  color: #313041;
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field {
+  position: relative;
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_title:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 11;
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_title_value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #313041;
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper {
+  padding: 20px 20px 15px;
+  margin-top: 16px;
+  left: 0;
+  margin-left: -20px;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper {
+    margin-left: 0;
+    margin-top: 11px;
+  }
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper .input_select_field {
+  font-size: 16px;
+  border-bottom: 1px solid #EBE6DE;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper .input_select_field .search_guests_plus, .tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper .input_select_field .search_guests_minus {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0;
+  margin-top: 8px;
+  padding-left: 3px;
+  text-align: center;
+  background: #313041;
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper .input_select_field .search_guests_plus i, .tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper .input_select_field .search_guests_minus i {
+  font-size: 11px;
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper .input_select_field .search_guests_plus:hover, .tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper .input_select_field .search_guests_minus:hover {
+  background: var(--tevily-theme-color);
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper .input_select_field .search_guests_plus {
+  margin-left: 5px;
+}
+
+.tevily-search-form #search_form .input-group .search_guests_field .field-content .search_guests_select_wrapper .search_apply_btn {
+  padding: 10px 15px;
+}
+
+.tevily-search-form #search_form .input-group .search-date {
+  position: relative;
+}
+
+.tevily-search-form #search_form .input-group .search-date .title-field:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 11;
+}
+
+.tevily-search-form #search_form .input-group .search-date .title-field:hover {
+  cursor: pointer;
+}
+
+.tevily-search-form #search_form .input-group .search-date .search_date {
+  padding: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #313041;
+  position: relative;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field {
+  padding: 0 10px;
+  width: 75px;
+  border: none;
+  position: static;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field div {
+  width: 100%;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field > i.fa-filter {
+  display: none;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_title {
+  font-size: 0;
+  color: transparent;
+  text-align: center;
+  width: 100%;
+  padding: 14px 0 0;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_title:before {
+  content: "\f1de";
+  font-family: 'Line Awesome Free';
+  font-weight: 900;
+  font-size: 30px;
+  color: var(--tevily-theme-color);
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper {
+  left: 0;
+  z-index: 11;
+  width: auto;
+  left: -30px;
+  right: -30px !important;
+  margin: 30px 0 0;
+  padding: 30px 30px 12px;
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper > div {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #EBE6DE;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper > div .field-group-content {
+  border: none;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper > div.advanced-price-content {
+  border: none;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper > div:nth-last-child(1), .tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper > div:nth-last-child(2) {
+  border: none;
+  margin-bottom: 0;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .price-header {
+  display: none;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .advanced-header, .tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .price-header {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .advanced-taxonomy-block .add_ids_list {
+  font-size: 16px;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .advanced-taxonomy-block .add_ids_list .term_item {
+  width: calc(100% / 3);
+  max-width: calc(100% / 3);
+  padding: 2px 0;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .advanced-taxonomy-block .add_ids_list .term_item.term_item_level_0:not(.term_item_checkbox) {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .advanced-taxonomy-block .add_ids_list .term_item_level_0:not(.term_item_checkbox) {
+  font-weight: 700;
+  color: #313041;
+}
+
+.tevily-search-form #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .search_guests_apply {
+  display: none;
+}
+
+.tevily-search-form #search_form .input-group .submit {
+  width: 165px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form #search_form .input-group .submit {
+    height: auto;
+    top: 50%;
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form #search_form .input-group .submit {
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 10px 15px;
+    width: 100%;
+  }
+}
+
+.tevily-search-form #search_form .input-group .submit .btn-search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  background: var(--tevily-theme-color);
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+  border-radius: 0 8px 8px 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  padding: 23px 10px;
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form #search_form .input-group .submit .btn-search {
+    position: relative;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form #search_form .input-group > .is-active {
+    padding: 0 15px;
+  }
+  .tevily-search-form #search_form .input-group > .is-active.search_advanced_field {
+    display: none;
+    position: relative;
+    width: 100%;
+    margin-top: 0 !important;
+    padding: 0 20px;
+  }
+  .tevily-search-form #search_form .input-group > .is-active.search_advanced_field .search_advanced_title {
+    display: inline-block !important;
+    font-size: 16px;
+    color: #313041;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 15px;
+  }
+  .tevily-search-form #search_form .input-group > .is-active.search_advanced_field .search_advanced_title:before {
+    padding-right: 10px;
+    position: relative;
+    top: 6px;
+  }
+}
+
+.tevily-search-form.layout-1 #search_form .input-group .search_advanced_field .search_advanced_select_wrapper, .tevily-search-form.layout-1-2 #search_form .input-group .search_advanced_field .search_advanced_select_wrapper {
+  margin: 9px 0 0;
+  left: 0;
+  right: 0 !important;
+}
+
+.tevily-search-form.layout-1 #search_form.form-col-1 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-1 .input-group > .is-active:not(.search_advanced_field) {
+  max-width: calc( (100% - 240px) / 1);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc( (100% - 240px) / 1);
+  flex: 0 0 calc( (100% - 240px) / 1);
+}
+
+.tevily-search-form.layout-1 #search_form.form-col-2 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-2 .input-group > .is-active:not(.search_advanced_field) {
+  max-width: calc( (100% - 240px) / 2);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc( (100% - 240px) / 2);
+  flex: 0 0 calc( (100% - 240px) / 2);
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form.layout-1 #search_form.form-col-2 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-2 .input-group > .is-active:not(.search_advanced_field) {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    border-bottom: 1px solid #EBE6DE;
+    border-right: 0;
+    display: block;
+  }
+}
+
+.tevily-search-form.layout-1 #search_form.form-col-3 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-3 .input-group > .is-active:not(.search_advanced_field) {
+  max-width: calc( (100% - 240px) / 3);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc( (100% - 240px) / 3);
+  flex: 0 0 calc( (100% - 240px) / 3);
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form.layout-1 #search_form.form-col-3 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-3 .input-group > .is-active:not(.search_advanced_field) {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    border-bottom: 1px solid #EBE6DE;
+    border-right: 0;
+    display: block;
+  }
+}
+
+.tevily-search-form.layout-1 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field) {
+  max-width: calc( (100% - 240px) / 4);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc( (100% - 240px) / 4);
+  flex: 0 0 calc( (100% - 240px) / 4);
+}
+
+.tevily-search-form.layout-1 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field).search_guests_field, .tevily-search-form.layout-1-2 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field).search_guests_field {
+  max-width: calc( (100% - 240px) * 0.2);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc( (100% - 240px) * 0.2);
+  flex: 0 0 calc( (100% - 240px) * 0.2);
+}
+
+.tevily-search-form.layout-1 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field).add_input_field[data-tax="ba_location"], .tevily-search-form.layout-1-2 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field).add_input_field[data-tax="ba_location"] {
+  max-width: calc( (100% - 240px) * 0.3);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc( (100% - 240px) * 0.3);
+  flex: 0 0 calc( (100% - 240px) * 0.3);
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form.layout-1 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field) {
+    max-width: calc( (100% - 240px) / 2) !important;
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 calc( (100% - 240px) / 2) !important;
+    flex: 0 0 calc( (100% - 240px) / 2) !important;
+  }
+  .tevily-search-form.layout-1 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field) .field-group-content, .tevily-search-form.layout-1-2 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field) .field-group-content {
+    border-bottom: 1px solid #EBE6DE;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form.layout-1 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-4 .input-group > .is-active:not(.search_advanced_field) {
+    max-width: 100% !important;
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    border-right: 0;
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form.layout-1 #search_form.form-col-4 .input-group .search_advanced_field, .tevily-search-form.layout-1-2 #search_form.form-col-4 .input-group .search_advanced_field {
+    margin-top: -68px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form.layout-1 #search_form.form-col-4 .input-group .search_advanced_field, .tevily-search-form.layout-1-2 #search_form.form-col-4 .input-group .search_advanced_field {
+    display: none;
+  }
+}
+
+.tevily-search-form.layout-1 #search_form.form-col-5 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-5 .input-group > .is-active:not(.search_advanced_field) {
+  max-width: calc( (100% - 240px) / 5);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc( (100% - 240px) / 5);
+  flex: 0 0 calc( (100% - 240px) / 5);
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form.layout-1 #search_form.form-col-5 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-5 .input-group > .is-active:not(.search_advanced_field) {
+    max-width: 100% !important;
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    border-bottom: 1px solid #EBE6DE;
+    border-right: 0;
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form.layout-1 #search_form.form-col-5 .input-group .search_advanced_field, .tevily-search-form.layout-1-2 #search_form.form-col-5 .input-group .search_advanced_field {
+    position: relative;
+    width: 100%;
+    margin-top: 0 !important;
+    padding: 0 20px;
+  }
+  .tevily-search-form.layout-1 #search_form.form-col-5 .input-group .search_advanced_field .search_advanced_title, .tevily-search-form.layout-1-2 #search_form.form-col-5 .input-group .search_advanced_field .search_advanced_title {
+    display: inline-block !important;
+    font-size: 16px;
+    color: #313041;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 15px;
+  }
+  .tevily-search-form.layout-1 #search_form.form-col-5 .input-group .search_advanced_field .search_advanced_title:before, .tevily-search-form.layout-1-2 #search_form.form-col-5 .input-group .search_advanced_field .search_advanced_title:before {
+    padding-right: 10px;
+    position: relative;
+    top: 6px;
+  }
+}
+
+.tevily-search-form.layout-1 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field) {
+  max-width: calc( (100% - 240px) / 6);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 calc( (100% - 240px) / 6);
+  flex: 0 0 calc( (100% - 240px) / 6);
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form.layout-1 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field) {
+    max-width: calc( (100% - 240px) / 3) !important;
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 calc( (100% - 240px) / 3) !important;
+    flex: 0 0 calc( (100% - 240px) / 3) !important;
+  }
+  .tevily-search-form.layout-1 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field) .field-group-content, .tevily-search-form.layout-1-2 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field) .field-group-content {
+    border-bottom: 1px solid #EBE6DE;
+  }
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form.layout-1 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field), .tevily-search-form.layout-1-2 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field) {
+    max-width: 100% !important;
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    border-right: 0;
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form.layout-1 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field) .search_advanced_field, .tevily-search-form.layout-1-2 #search_form.form-col-6 .input-group > .is-active:not(.search_advanced_field) .search_advanced_field {
+    margin-top: -86px !important;
+  }
+}
+
+.tevily-search-form.layout-1 #search_form .input-group > .is-active .field-group-content ul.add_ids_list {
+  left: -20px !important;
+  right: -20px !important;
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form.layout-1 #search_form .input-group > .is-active .field-group-content ul.add_ids_list {
+    left: 0 !important;
+    right: 0 !important;
+  }
+}
+
+.tevily-search-form.layout-1-2 #search_form {
+  width: 100%;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 20px;
+  background: #fff;
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form.layout-1-2 #search_form {
+    padding: 15px;
+  }
+}
+
+.tevily-search-form.layout-1-2 #search_form .input-group > .is-active {
+  padding: 0 20px 0 0;
+  border-right: 0;
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form.layout-1-2 #search_form .input-group > .is-active {
+    padding: 0;
+  }
+}
+
+.tevily-search-form.layout-1-2 #search_form .input-group > .is-active .field-group-content {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #EBE6DE;
+}
+
+.tevily-search-form.layout-1-2 #search_form .input-group > .is-active .field-group-content ul.add_ids_list {
+  margin-top: 5px !important;
+  width: 100%;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .tevily-search-form.layout-1-2 #search_form .input-group > .is-active .field-group-content ul.add_ids_list {
+    margin-top: 0 !important;
+  }
+}
+
+.tevily-search-form.layout-1-2 #search_form .input-group .search_advanced_field {
+  padding-right: 15px;
+  width: 60px;
+}
+
+.tevily-search-form.layout-1-2 #search_form .submit {
+  width: 170px;
+}
+
+.tevily-search-form.layout-1-2 #search_form .submit button {
+  border-radius: 8px !important;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .tevily-search-form.layout-1-2 #search_form .submit {
+    width: 100%;
+    padding: 15px 0 0;
+  }
+}
+
+.tevily-search-form.layout-2 #search_form {
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group {
+  display: block;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group > .is-active {
+  width: 100%;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #EBE6DE !important;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group > .is-active .field-group-content {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group > .is-active ul.add_ids_list {
+  left: 0;
+  right: 0;
+  margin-top: 15px !important;
+  width: 100%;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .search_advanced_field {
+  position: relative;
+  z-index: 1;
+  border: none;
+  margin: 0 !important;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .search_advanced_field .search_advanced_title {
+  display: none;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .search_advanced_field .search_advanced_select_wrapper {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 100%;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .search_advanced_field .search_advanced_select_wrapper > div {
+  border: none !important;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .price-header, .tevily-search-form.layout-2 #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .advanced-header {
+  display: block;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .advanced-taxonomy-block .add_ids_list {
+  font-size: 16px;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .advanced-taxonomy-block .add_ids_list .term_item {
+  width: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  padding: 5px 0;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .search_advanced_field .search_advanced_select_wrapper .advanced-taxonomy-block .add_ids_list .term_item_level_0:not(.term_item_checkbox) {
+  font-weight: 700;
+  color: #313041;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .search_advanced_field .search_guests_apply {
+  display: none;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .submit {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0 !important;
+}
+
+.tevily-search-form.layout-2 #search_form .input-group .submit .btn-search {
+  border-radius: 8px;
+  position: relative;
+}
+
+.my_account_page_content_wrapper.login-register-page {
+  background: #F1F2F6;
+  padding: 100px 0 !important;
+  min-height: auto !important;
+  margin: 0;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form {
+  border-radius: 8px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .modal-header {
+  display: none;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-content-left {
+  background: #EFF6FE;
+  position: relative;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-content-left .img-register {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-content-left .content-inner {
+  padding: 0 15px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content {
+  padding: 50px;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content .title {
+  margin: 0 0 6px;
+  font-size: 30px;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content .desc {
+  font-size: 16px;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content #registration_form {
+  margin: 0 -15px;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content #registration_form > div {
+  padding: 10px 15px;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content #registration_form > div label {
+  color: #313041;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content .statement {
+  text-align: left !important;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content .statement .register-notes {
+  font-weight: 500;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content .new-submit {
+  text-align: left;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content .new-submit #new-submit {
+  border: none;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-register-form .register-form-content .new-submit #new-submit:hover {
+  background: var(--tevily-theme-color);
+  color: #fff;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form {
+  border-radius: 8px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form .form-content {
+  padding: 50px;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form .form-content #babe_login {
+  display: block;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form .form-content #babe_login > div {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form .form-content #babe_login > div label {
+  color: #313041;
+  font-weight: 500;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form .form-content #forgot_url a {
+  color: var(--tevily-theme-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form .form-content #forgot_url a:hover {
+  text-decoration: underline;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form .form-content .user-registration {
+  text-align: center;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form .form-content .user-registration a {
+  color: var(--tevily-theme-color);
+  margin-left: 6px;
+}
+
+.my_account_page_content_wrapper.login-register-page .z-login-form .form-content .user-registration a:hover {
+  text-decoration: underline;
+}
+
+.my_account_page_content_wrapper #login_registration h3 {
+  display: none;
+}
+
+.my_account_page_content_wrapper #login_registration .registration_link {
+  display: none;
+}
+
+.my_account_page_content_wrapper #login_registration #registration {
+  display: block;
+}
+
+.my_account_page_content_wrapper .my_account_user_profile {
+  background: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 20px 0 rgba(6, 30, 98, 0.08);
+  box-shadow: 0 0 20px 0 rgba(6, 30, 98, 0.08);
+  padding: 20px;
+  margin: 0 10px 15px;
+}
+
+.my_account_page_content_wrapper .my_account_user_profile .my_account_user_avatar {
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .my_account_page_content_wrapper .my_account_user_profile .my_account_user_avatar {
+    margin-right: 0;
+  }
+}
+
+.my_account_page_content_wrapper .my_account_user_profile .my_account_user_info {
+  margin: 0 10px;
+}
+
+.my_account_page_content_wrapper .my_account_user_profile .my_account_user_info table {
+  border: 0;
+  margin: 0;
+}
+
+.my_account_page_content_wrapper .my_account_user_profile .my_account_user_info table td {
+  border: 0;
+  line-height: 30px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.my_account_page_content_wrapper .my_account_user_profile .my_account_user_info table td.my_account_label {
+  padding-right: 15px;
+  font-weight: 500;
+  color: #313041;
+}
+
+.my_account_page_content_wrapper .my_account_user_profile .my_account_user_info table td.my_account_label:after {
+  content: ':';
+}
+
+.tevily-dashboard-page .my-account-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 68px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 11;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+
+@media (max-width: 640px) {
+  .tevily-dashboard-page .my-account-header {
+    padding: 0 15px;
+  }
+}
+
+.tevily-dashboard-page .my-account-header .logo {
+  max-width: 180px;
+}
+
+@media (max-width: 640px) {
+  .tevily-dashboard-page .my-account-header .logo {
+    max-width: 100px;
+    padding-top: 10px;
+  }
+}
+
+.tevily-dashboard-page .my-account-header .logo img {
+  max-height: 100%;
+}
+
+.tevily-dashboard-page .my-account-header .header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tevily-dashboard-page .my-account-header .header-right .wishlist {
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #EBE6DE;
+}
+
+.tevily-dashboard-page .my-account-header .header-right .wishlist a {
+  color: var(--tevily-theme-color);
+  font-size: 16px;
+  position: relative;
+  top: 2px;
+}
+
+@media (max-width: 640px) {
+  .tevily-dashboard-page .my-account-header .header-right .wishlist a {
+    font-size: 0;
+    top: 6px;
+  }
+}
+
+.tevily-dashboard-page .my-account-header .header-right .wishlist a i {
+  font-size: 18px;
+}
+
+@media (max-width: 640px) {
+  .tevily-dashboard-page .my-account-header .header-right .wishlist a i {
+    font-size: 26px;
+  }
+}
+
+.tevily-dashboard-page .my-account-header .header-right .wishlist a:hover {
+  text-decoration: underline;
+}
+
+.tevily-dashboard-page .my-account-header .header-right .user-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tevily-dashboard-page .my-account-header .header-right .user-profile .avata {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.tevily-dashboard-page .my-account-header .header-right .user-profile .name {
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .tevily-dashboard-page .my-account-header .header-right .user-profile .name {
+    display: none;
+  }
+}
+
+.tevily-dashboard-page #my_account_page_wrapper {
+  margin-top: 68px;
+}
+
+@media (max-width: 881px) {
+  .tevily-dashboard-page #my_account_page_wrapper {
+    position: relative;
+  }
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper {
+  position: fixed;
+  top: 68px;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  background: #fff;
+  -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #EBE6DE;
+  padding: 0;
+  width: 300px;
+}
+
+@media (max-width: 881px) {
+  .tevily-dashboard-page .my_account_page_nav_wrapper {
+    position: absolute;
+    top: 12px;
+    bottom: auto;
+    margin: 0 !important;
+    left: 10px;
+  }
+  .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_selector {
+    border: none;
+    border-top: 1px solid #EBE6DE;
+    border-bottom: 1px solid #EBE6DE;
+    border-radius: 0;
+  }
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list {
+  padding: 30px 0;
+  position: relative;
+}
+
+@media (max-width: 881px) {
+  .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list {
+    border: none;
+  }
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 > li > .my_account_nav_item_title {
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #313041;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_1 li, .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 li {
+  background: none;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_1 li > a, .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 li > a {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  position: relative;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_1 li > a:after, .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 li > a:after {
+  content: '';
+  width: 3px;
+  height: 100%;
+  background: var(--tevily-theme-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_1 li > a .my_account_nav_item_title, .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 li > a .my_account_nav_item_title {
+  font-size: 16px;
+  color: var(--tevily-body-color);
+  padding: 8px 20px;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_1 li > a .my_account_nav_item_title .my_account_nav_item_icon, .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 li > a .my_account_nav_item_title .my_account_nav_item_icon {
+  font-size: 22px;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_1 li > a .my_account_nav_item_title:hover, .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 li > a .my_account_nav_item_title:hover {
+  background: #F5F7FA;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_1 li > a .my_account_nav_item_title:hover:after, .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 li > a .my_account_nav_item_title:hover:after {
+  opacity: 1;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_1 li.my_account_nav_item_current > a, .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 li.my_account_nav_item_current > a {
+  background: #F5F7FA;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_1 li.my_account_nav_item_current > a:after, .tevily-dashboard-page .my_account_page_nav_wrapper .my_account_page_nav_list ul.my_account_nav_list_0 li.my_account_nav_item_current > a:after {
+  opacity: 1;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .mCSB_container {
+  margin: 0;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper #mCSB_1_scrollbar_vertical {
+  width: 4px;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .mCSB_dragger_bar {
+  background: #ccc !important;
+}
+
+.tevily-dashboard-page .my_account_page_nav_wrapper .mCSB_draggerRail {
+  background: none;
+}
+
+.tevily-dashboard-page .my_account_page_content_wrapper {
+  padding: 0 20px 20px 320px;
+  min-height: calc(100vh - 68px);
+  background: #F5F7FA;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 881px) {
+  .tevily-dashboard-page .my_account_page_content_wrapper {
+    padding: 0;
+  }
+}
+
+.tevily-dashboard-page .my_account_page_content_wrapper .my_account-content-inner {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+@media (max-width: 881px) {
+  .tevily-dashboard-page .my_account_page_content_wrapper .my_account-content-inner {
+    margin: 70px auto 50px;
+  }
+}
+
+.tevily-dashboard-page .my_account_all_posts_inner, .tevily-dashboard-page .my_account_my_bookings_inner, .tevily-dashboard-page .my_account_edit_post_inner, .tevily-dashboard-page #edit_user_profile, .tevily-dashboard-page #change_user_password {
+  background: #fff;
+  -webkit-box-shadow: 0 0 20px 0 rgba(6, 30, 98, 0.08);
+  box-shadow: 0 0 20px 0 rgba(6, 30, 98, 0.08);
+  padding: 20px;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+@media (max-width: 881px) {
+  .tevily-dashboard-page .my_account_all_posts_inner, .tevily-dashboard-page .my_account_my_bookings_inner, .tevily-dashboard-page .my_account_edit_post_inner, .tevily-dashboard-page #edit_user_profile, .tevily-dashboard-page #change_user_password {
+    padding: 10px;
+  }
+}
+
+.tevily-dashboard-page .my_account_all_posts_inner .my_account_all_posts_total, .tevily-dashboard-page .my_account_my_bookings_inner .my_account_all_posts_total, .tevily-dashboard-page .my_account_edit_post_inner .my_account_all_posts_total, .tevily-dashboard-page #edit_user_profile .my_account_all_posts_total, .tevily-dashboard-page #change_user_password .my_account_all_posts_total {
+  color: #313041;
+  font-size: 16px;
+}
+
+.tevily-dashboard-page #edit_user_profile {
+  overflow: hidden;
+}
+
+.tevily-dashboard-page #edit_user_profile .edit-profile-avatar {
+  width: 100%;
+  text-align: center;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  display: block;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.tevily-dashboard-page #edit_user_profile .edit-profile-avatar img {
+  border-radius: 6px;
+}
+
+.tevily-dashboard-page #edit_user_profile .edit-profile-avatar .button_link {
+  position: absolute;
+  background: var(--tevily-theme-color);
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 8px 15px;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: none;
+  border-radius: 4px;
+}
+
+.tevily-dashboard-page .edit-profile-form-block {
+  margin-bottom: 10px !important;
+}
+
+.tevily-dashboard-page .edit-profile-form-block .checkout_form_input_underline {
+  display: none;
+}
+
+.tevily-dashboard-page .edit-profile-form-block .checkout_form_input_label {
+  font-size: 14px;
+  color: #313041;
+  margin-bottom: 3px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  position: relative;
+  font-weight: 500;
+}
+
+.tevily-dashboard-page .cmb-type-group .cmb-row.cmb-repeat-group-field, .tevily-dashboard-page .cmb2-postbox .cmb-row.cmb-repeat-group-field {
+  padding: 15px;
+}
+
+.tevily-dashboard-page .cmb-th {
+  width: 20% !important;
+  float: left;
+  font-weight: 500;
+  color: var(--tevily-heading-color);
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 4px;
+  padding-right: 10px;
+}
+
+.tevily-dashboard-page .cmb-th + .cmb-td, .tevily-dashboard-page .cmb-type-group .cmb-th + .cmb-td, .tevily-dashboard-page .cmb2-postbox .cmb-th + .cmb-td {
+  width: 80%;
+  float: right;
+}
+
+.tevily-dashboard-page .cmb-type-group .cmb-repeatable-group:not(:last-of-type), .tevily-dashboard-page .cmb-type-group .cmb-row:not(:last-of-type), .tevily-dashboard-page .cmb2-postbox .cmb-repeatable-group:not(:last-of-type), .tevily-dashboard-page .cmb2-postbox .cmb-row:not(:last-of-type) {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.tevily-dashboard-page .cmb-repeatable-group .cmb-group-title {
+  background: #E9E9E9;
+}
+
+.tevily-dashboard-page .cmb-group-description .cmb-th {
+  width: 100% !important;
+}
+
+.tevily-dashboard-page .cmb-group-description > .cmb-th {
+  font-weight: 700;
+  color: #313041;
+  text-transform: uppercase;
+  font-size: 16px !important;
+}
+
+.tevily-dashboard-page .cmb-group-description > .cmb-th .cmb2-metabox-description {
+  font-style: normal;
+}
+
+.tevily-dashboard-page .cmb-type-price-details .cmb-td #prices-form {
+  margin-bottom: 10px !important;
+}
+
+.tevily-dashboard-page .cmb-type-price-details .cmb-td h3 {
+  font-size: 20px;
+}
+
+.tevily-dashboard-page .cmb-type-price-details .cmb-td .button-secondary {
+  padding: 0 10px 1px !important;
+  border: none;
+  height: 28px;
+}
+
+.tevily-dashboard-page .cmb-type-price-details .cmb-td .button-secondary:hover {
+  background: var(--tevily-theme-color);
+  color: #fff;
+}
+
+.tevily-dashboard-page .cmb-type-discount .cmb-td .discount-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.tevily-dashboard-page .cmb-type-discount .cmb-td .discount-block > div {
+  margin-right: 15px;
+}
+
+.tevily-dashboard-page .cmb-type-tax-children-multicheck {
+  border-bottom: 1px solid #EBE6DE;
+  padding: 15px 0 0 !important;
+}
+
+.tevily-dashboard-page .cmb-type-tax-children-multicheck .term_item {
+  margin-bottom: 18px;
+  float: left;
+}
+
+.tevily-dashboard-page .cmb-type-tax-children-multicheck .term_item_level_0 {
+  font-weight: 500;
+  color: #313041;
+  font-size: 16px;
+  width: 100%;
+}
+
+.tevily-dashboard-page .cmb-type-tax-children-multicheck .term_item_level_1 {
+  padding-right: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--tevily-body-color);
+}
+
+.tevily-dashboard-page .cmb2-checkbox-list li {
+  padding: 6px 0;
+}
+
+.tevily-dashboard-page .cmb2-checkbox-list li label {
+  color: #313041;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tevily-dashboard-page .cmb2-id-related-items .cmb2-checkbox-list li {
+  padding: 6px 15px 0 0;
+}
+
+.tevily-dashboard-page .cmb2-id-related-items .cmb2-checkbox-list li label {
+  color: #313041;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.tevily-dashboard-page .cmb2-id-related-items .related_collapsible {
+  background: #E9E9E9;
+  border: none;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.tevily-dashboard-page .cmb2-id-related-items .related_collapsible.collapsed {
+  background: #D0D0D0;
+}
+
+.tevily-dashboard-page .cmb2-id-related-items .content {
+  padding: 20px 0;
+}
+
+.tevily-dashboard-page .cmb2-id-related-items .content ul.cmb2-checkbox-list li {
+  margin-bottom: 10px;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.tevily-dashboard-page .cmb2-id-related-items .content ul.cmb2-checkbox-list li label {
+  color: var(--tevily-body-color);
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .button {
+  padding: 8px 10px 4px;
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .cmb2-wrap li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .cmb2-wrap li input[type=radio] {
+  position: relative;
+  top: 2px;
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .button-secondary:not(#rate_new_open) {
+  background: #4D5FE3;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  font-weight: 500;
+  padding: 8px 12px;
+  line-height: 20px;
+  height: auto;
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .button-secondary:not(#rate_new_open).cmb-shift-rows {
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .button-secondary:not(#rate_new_open).cmb-shift-rows .dashicons {
+  margin: 0;
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .button-secondary:not(#rate_new_open):hover {
+  opacity: 0.8;
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .service_prices_block {
+  font-size: 16px;
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .service_prices_block .service_price_item {
+  margin-bottom: 15px;
+}
+
+.tevily-dashboard-page .my_account_edit_post_inner .service_prices_block .service_price_item label {
+  min-width: 220px;
+}
+
+.tevily-dashboard-page .cmb-type-row-header {
+  margin: 20px 0 10px !important;
+}
+
+.tevily-dashboard-page .cmb-row {
+  padding-bottom: 10px;
+}
+
+.tevily-dashboard-page .cmb-row .cmb-remove-field-row {
+  margin: 0;
+  padding: 0 15px;
+}
+
+.tevily-dashboard-page .cmb-row .cmb-remove-field-row .cmb-remove-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tevily-dashboard-page .cmb-row .cmb-remove-field-row .cmb-remove-row button {
+  margin-left: 2px;
+}
+
+.tevily-dashboard-page .cmb-row .cmb2-before-row-header {
+  background: #202F59 !important;
+  padding: 5px 15px;
+}
+
+.tevily-dashboard-page .cmb-row .cmb2-metabox-description {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.tevily-dashboard-page .cmb-row input[type="text"], .tevily-dashboard-page .cmb-row input[type="tel"], .tevily-dashboard-page .cmb-row input[type="password"], .tevily-dashboard-page .cmb-row input[type="email"], .tevily-dashboard-page .cmb-row input[type="url"], .tevily-dashboard-page .cmb-row input[type="date"], .tevily-dashboard-page .cmb-row input[type="number"], .tevily-dashboard-page .cmb-row textarea, .tevily-dashboard-page .cmb-row select {
+  line-height: 36px;
+  padding: 0 10px;
+}
+
+.tevily-dashboard-page .cmb-row .cmb-add-row {
+  margin-top: 15px;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table thead tr td, .tevily-dashboard-page table.my_account_all_posts_table thead tr th, .tevily-dashboard-page table.my_account_my_bookings_table thead tr td, .tevily-dashboard-page table.my_account_my_bookings_table thead tr th {
+  background: #F5F7FC;
+  color: #313041;
+  border: 0;
+  padding: 15px 15px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr, .tevily-dashboard-page table.my_account_my_bookings_table tr {
+  border-bottom: 1px solid #EBE6DE;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td, .tevily-dashboard-page table.my_account_my_bookings_table tr td {
+  padding: 15px 10px 15px;
+  border: none;
+  line-height: 20px;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_title .title-image, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_title .title-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_title .title-image .image, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_title .title-image .image {
+  width: 90px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 90px;
+  flex: 0 0 90px;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_title .title-image .title, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_title .title-image .title {
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_date, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_date {
+  width: 130px;
+  font-size: 14px;
+  color: var(--tevily-body-color);
+  font-weight: 500;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_action, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_action {
+  width: 50px;
+  text-align: center;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_action a, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_action a {
+  font-size: 20px;
+  color: var(--tevily-theme-color);
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_action a:hover, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_action a:hover {
+  color: #313041;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_action .ajax-wishlist-link, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_action .ajax-wishlist-link {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff !important;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_action .ajax-wishlist-link.ajax-preload, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_action .ajax-wishlist-link.ajax-preload {
+  opacity: 0.68;
+}
+
+.tevily-dashboard-page table.my_account_all_posts_table tr td.my_account_all_posts_td_action .ajax-wishlist-link.wishlist-added, .tevily-dashboard-page table.my_account_my_bookings_table tr td.my_account_all_posts_td_action .ajax-wishlist-link.wishlist-added {
+  background: var(--tevily-theme-color);
+}
+
+body.logged-in.admin-bar .tevily-dashboard-page .my-account-header {
+  margin-top: 32px;
+}
+
+@media (max-width: 782px) {
+  body.logged-in.admin-bar .tevily-dashboard-page .my-account-header {
+    margin-top: 46px;
+  }
+}
+
+@media (max-width: 600px) {
+  body.logged-in.admin-bar .tevily-dashboard-page .my-account-header {
+    position: relative;
+    margin-top: 0;
+  }
+}
+
+body.logged-in.admin-bar .tevily-dashboard-page #my_account_page_wrapper {
+  margin-top: 68px;
+}
+
+@media (max-width: 600px) {
+  body.logged-in.admin-bar .tevily-dashboard-page #my_account_page_wrapper {
+    margin-top: 0;
+  }
+}
+
+body.logged-in.admin-bar .tevily-dashboard-page .my_account_page_nav_wrapper {
+  margin-top: 30px;
+}
+
+#checkout_form_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#checkout_form_block > div h2 {
+  font-size: 22px;
+  margin: 0 0 18px;
+}
+
+#checkout_form_block .checkout-items {
+  padding-right: 15px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 65%;
+  flex: 0 0 65%;
+  max-width: 65%;
+}
+
+@media (max-width: 980px) {
+  #checkout_form_block .checkout-items {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    padding-right: 0;
+  }
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details {
+  border: none;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr {
+  border: none;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr:first-child {
+  border-top: 1px solid #EBE6DE;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td {
+  padding: 20px 0 5px;
+  vertical-align: top;
+  border: none;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_item_row_image {
+  width: 140px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+@media (max-width: 600px) {
+  #checkout_form_block .checkout-items table.table_order_items_details tr td.order_item_row_image {
+    width: 0;
+  }
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_item_row_details table tr {
+  border: none;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_item_row_details table tr td {
+  padding: 0;
+  line-height: 26px;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_item_row_details table tr td.order_item_info_title {
+  font-size: 19px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_item_row_details table tr td .order_item_td_label {
+  color: #313041;
+  font-weight: 500;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_item_row_price .table_order_item_total_price tr {
+  border: 0;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_item_row_price .table_order_item_total_price tr td {
+  text-align: right;
+  padding: 0;
+  border: 0;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_items_row_total, #checkout_form_block .checkout-items table.table_order_items_details tr td.order_items_row_total_amount {
+  background: #FAF5EE;
+  padding: 3px 20px 3px 15px;
+  text-align: right;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_items_row_subtotal {
+  padding-top: 20px;
+}
+
+#checkout_form_block .checkout-items table.table_order_items_details tr td.order_items_row_due {
+  padding-bottom: 20px;
+}
+
+#checkout_form_block .checkout-information {
+  padding-left: 15px;
+  max-width: 35%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 35%;
+  flex: 0 0 35%;
+}
+
+@media (max-width: 980px) {
+  #checkout_form_block .checkout-information {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    padding-left: 0;
+  }
+}
+
+#checkout_form_block .checkout-information form#checkout_form .input_group {
+  display: block;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .input_group > div {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .input_group .checkout-form-block {
+  line-height: 24px;
+  min-width: 30px;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .input_group .checkout-form-block .checkout_form_input_label {
+  font-size: 16px;
+  padding: 0;
+  position: static !important;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  max-width: 100%;
+  font-weight: 500;
+  color: #313041;
+  line-height: 1.1 !important;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .input_group .checkout-form-block .checkout_input_field {
+  padding: 0 15px;
+  margin: 0;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .input_group .checkout-form-block .checkout_form_input_underline {
+  display: none;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .input_group .checkout-form-block .error {
+  font-size: 13px;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .amount_group {
+  padding: 0;
+  background: #FAF5EE;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .payment_group.tabs_group {
+  font-size: 16px;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .terms_group {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#checkout_form_block .checkout-information form#checkout_form .submit_group button {
+  width: 100%;
+}
+
+#checkout_form_block .checkout-information .coupon-form-block {
+  padding: 20px;
+  text-align: left;
+  display: block;
+  text-align: center;
+  background: #FAF5EE;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+#checkout_form_block .checkout-information .coupon-form-block #coupon_input_field {
+  height: 45px;
+  padding: 0 10px;
+}
+
+#checkout_form_block .checkout-information .coupon-form-block #coupon_form_submit {
+  margin: 15px 0 0;
+}
+
+.table_order_items_details {
+  border: none;
+}
+
+.table_order_items_details tr {
+  border: none;
+}
+
+.table_order_items_details tr:first-child {
+  border-top: 1px solid #EBE6DE;
+}
+
+.table_order_items_details tr td {
+  padding: 20px 0 5px;
+  vertical-align: top;
+  border: none;
+}
+
+.table_order_items_details tr td.order_item_row_image {
+  width: 140px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+.table_order_items_details tr td.order_item_row_details table tr {
+  border: none;
+}
+
+.table_order_items_details tr td.order_item_row_details table tr td {
+  padding: 0;
+  line-height: 26px;
+}
+
+.table_order_items_details tr td.order_item_row_details table tr td.order_item_info_title {
+  font-size: 19px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.table_order_items_details tr td.order_item_row_details table tr td .order_item_td_label {
+  color: #313041;
+  font-weight: 500;
+}
+
+.table_order_items_details tr td.order_item_row_price .table_order_item_total_price tr {
+  border: 0;
+}
+
+.table_order_items_details tr td.order_item_row_price .table_order_item_total_price tr td {
+  text-align: right;
+  padding: 0;
+  border: 0;
+}
+
+.table_order_items_details tr td.order_items_row_total, .table_order_items_details tr td.order_items_row_total_amount {
+  background: #FAF5EE;
+  padding: 2px;
+}
+
+.table_order_items_details tr td.order_items_row_subtotal {
+  padding-top: 20px;
+}
+
+.table_order_items_details tr td.order_items_row_due {
+  padding-bottom: 20px;
+}
+
+.ba-confirmation-page .page h4 {
+  margin-top: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #EBE6DE;
+}
+
+.ba-confirmation-page .babe_message_order {
+  background: #FAF5EE;
+  color: #313041;
+  border: none;
+  border-radius: 8px;
+}
+
+.ba-confirmation-page .table_order_items_details {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  float: left;
+}
+
+.ba-confirmation-page .table_order_items_details tr {
+  border: none;
+}
+
+.ba-confirmation-page .table_order_items_details tr td {
+  border: none;
+}
+
+.ba-confirmation-page .table_order_items_details tr td.order_item_row_details, .ba-confirmation-page .table_order_items_details tr td.order_item_row_price {
+  padding: 15px 15px 10px;
+}
+
+.ba-confirmation-page .table_order_items_details tr td.order_item_row_image {
+  padding: 15px 0;
+}
+
+@media (max-width: 600px) {
+  .ba-confirmation-page .table_order_items_details tr td.order_item_row_image {
+    width: 0;
+  }
+}
+
+.ba-confirmation-page .table_order_items_details tr td.order_items_row_total_amount {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.ba-confirmation-page .table_order_items_details .customer_field_label {
+  font-weight: 500;
+  color: #313041;
+  width: 200px;
+  border: none;
+  padding: 5px 0;
+}
+
+.ba-confirmation-page .table_customer_details {
+  width: 100%;
+  background: #FAF5EE;
+  border: none;
+}
+
+.ba-confirmation-page .table_customer_details tr td {
+  padding: 5px 15px 5px 20px;
+  border: none;
+  font-weight: 500;
+}
+
+.ba-confirmation-page .table_customer_details tr td.customer_field_label {
+  width: 160px;
+  color: #313041;
+}
+
+.ba-confirmation-page .table_customer_details tr:first-child td {
+  padding: 20px 20px 5px;
+}
+
+.ba-confirmation-page .table_customer_details tr:last-child td {
+  padding: 5px 20px 20px;
+}
